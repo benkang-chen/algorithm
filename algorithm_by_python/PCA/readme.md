@@ -18,7 +18,6 @@
 
 ​	首先，考虑在一维空间 (k=1) 上的投影。我们可以使用 n 维向量u定义这个空间的方向。为了方便(并且不失一般性)，我们假定选择一个单位向量，从而  $$ u^T u = 1$$ ，（注意，我们只对$$u$$的方向感兴趣，而对 $$u$$本身的大小不感兴趣)。
 
-```
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 formula1: $$n==x$$
 
@@ -31,5 +30,4 @@ formula4: [m!=y]
 formula5: \(k==z\)
 
 formula6: \[k!=z\]
-```
 
