@@ -16,14 +16,20 @@
 
 ​	在信号处理中认为信号具有较大的方差，噪声有较小的方差，信噪比就是信号与噪声的方差比，越大越好。因此我们认为，最好的k维特征是将n维样本点变换为k维后，每一维上的样本方差都尽可能的大。
 
-​	首先，考虑在一维空间 (k=1) 上的投影。我们可以使用 n 维向量u定义这个空间的方向。为了方便(并且不失一般性)，我们假定选择一个单位向量，从而  
-$$
-u^T u = 1
-$$
-（注意，我们只对$$ u $$的方向感兴趣，而对 $$u$$本身的大小不感兴趣)。
+​	首先，考虑在一维空间 (k=1) 上的投影。我们可以使用 n 维向量u定义这个空间的方向。为了方便(并且不失一般性)，我们假定选择一个单位向量，从而  $$ u^T u = 1$$ ，（注意，我们只对$$u$$的方向感兴趣，而对 $$u$$本身的大小不感兴趣)。
 
-![pca](https://github.com/benkang-chen/algorithm/blob/master/algorithm_by_python/picture/pca1.png)
+```
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+formula1: $$n==x$$
 
+formula2: $$n!=x$$
 
+formula3: (m==y)
 
+formula4: [m!=y]
+
+formula5: \(k==z\)
+
+formula6: \[k!=z\]
+```
 
