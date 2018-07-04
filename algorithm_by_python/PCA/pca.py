@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cmx
 import matplotlib.colors as colors
 import numpy as np
-# %matplotlib inline%
 
 
 def shuffle_data(X, y, seed=None):
